@@ -1,0 +1,127 @@
+.menu{
+    background-color: #ff8000;
+    padding: 0.5px 0;
+}
+
+.menu-container{
+    max-width: 960px;
+    height: 150px;
+}
+
+.menu-container::after, .menu-container::before {
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a.menu-logo{
+
+    float: left;
+    margin-top: 0px;;
+  display: block;
+  margin-right: 10px;
+}
+
+ .body{
+     background-color: beige;
+     font-family: sans-serif;
+ } 
+
+ .form1{
+     width: 400px;
+     margin: auto;
+     padding-top: 40px;
+ }
+    .card{
+        box-shadow: 1px 1px 5px #ccc;
+        background-color: white;
+        padding: 12px;
+        border-radius: 65px;
+        width: 75%;
+        
+        
+        
+
+    }
+
+    .ImgLogin{
+        box-shadow: 1px 1px 5px #ccc;
+        border-radius: 50px;
+        width: 108%;
+
+    }
+
+    .form2{
+        text-align: center;
+        float: center;
+    }
+
+    .h2{
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .card-group>label{
+        color: rgb(75, 75, 75) ;
+        width: 50%;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+       
+    }
+
+    .card-group >input{
+        border-radius: 5px;
+        outline: 0;
+        width:50%;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto ;
+        display: block;
+        padding: 5px;
+    }
+
+    .P{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
+        
+    }
+
+    .alerta-botão>input{
+        margin-left: 1450px;
+        margin-bottom: 2px;
+        width: 5%;
+        height: 30px;
+        font-size: 1.1em;
+        font-family: sans-serif;
+    }
+
+  .footer{
+      padding-top: 20px;
+      background-color: #ff8000;
+      margin-top: 50px;
+  }
+
+  .footer-container{
+      max-width: 900px;
+      margin: 0, auto;
+  }
+
+  .footer-container::before, .footer-container::after {
+
+    content: '';
+	display: table;
+	clear: both;
+  }
+
+  .footer img{
+      width: 4%;
+      margin-left: 20px
+  }
+
